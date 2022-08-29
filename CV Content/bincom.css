@@ -1,0 +1,110 @@
+* {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.head-box {
+    background-color: #244061;
+    color: #244061;
+    width: 100%;
+    height: 6vh;
+    /* margin-bottom: 100px 100px; */
+}
+
+.main-line{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 15rem 0 15rem;
+    /* margin: 0 20vw; */
+}
+
+img {
+    width: 150px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;;
+    font-weight: 900;
+    color: #244061;
+    margin-bottom: 4vh;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #244061;
+}
+
+h3:hover{
+    background-color: #244061;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+h2:hover{
+    background-color: #244061;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.first-line {
+    margin-right: 60px;
+}
+
+ul li, {
+    margin-left: 40px;
+}
+
+.skills, .contact {
+    margin-left: 25px;
+}
+
+.contact-info, .skills ul li{
+    margin-bottom: 20px;
+}
+
+.second-line {
+    margin-top: 100px;
+}
+
+hr {
+    margin-top: 0.3rem;
+}
+
+.summary, .contact, .skill-highlights, .experience, .education, .certification, .head-box, img{
+    margin-bottom: 4vh;
+}
+
+.skill-highlights ul {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin-bottom: vh;
+}
+
+.ski {
+    padding: 0.1rem;
+}
+
+.foot {
+        background-color: #244061;
+        color: #244061;
+        width: 100%;
+        height: 6vh;
+        margin-top: 10vh;   
+}
+
+.five-friends {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: #244061 5px solid;
+}
+
+.friends {
+    margin: 1rem 0 0 5rem;
+}
